@@ -1,15 +1,19 @@
 
 public class TrueFalse extends Question
 {
-
-	public TrueFalse(int num, String inText) 
+	private String answer;
+	public TrueFalse(String inText) 
 	{
 		super(inText);
 	}
 
-	public String solution() 
+	public String getSolution() 
 	{
-		return null;
+		return answer;
 	}
 
+	public String toString() 
+	{
+		return ("Question Number:" + getNumber() + " " + getText() + answer);
+	}
 }

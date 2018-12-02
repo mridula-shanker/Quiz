@@ -1,11 +1,12 @@
 
 public abstract class Question 
 {
-	private int number =1;
+	private int number;
 	private String text;
 	
 	public Question (String inText)
 	{
+		number =1;
 		text = inText;
 	}
 	

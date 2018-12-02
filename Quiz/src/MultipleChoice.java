@@ -19,7 +19,7 @@ public class MultipleChoice extends Question
 	
 	public String toString() 
 	{
-		return ("Question Number:" + number + " " + inText + correctAnswer);
+		return ("Question Number:" + getNumber() + " " + getText() + correctAnswer);
 	}
 	
 }
